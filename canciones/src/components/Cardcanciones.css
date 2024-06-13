@@ -1,5 +1,5 @@
-/* Estilos para las tarjetas */
-.card {
+/* Estilos para las tarjetas de canciones */
+.cardcanciones {
   position: relative;
   width: 280px; /* Reducción en el ancho */
   height: 230px; /* Reducción en la altura */
@@ -12,17 +12,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px; /* Agregar espacio entre las tarjetas */
   background-color: #f0f0f0; /* Fondo */
 }
 
-.card img {
-  width: 280px;
-  height: auto;
+.cardcanciones img {
+  width: 100%; /* Ajusta el ancho para que la imagen ocupe todo el espacio disponible */
+  height: auto; /* Mantiene la proporción de la imagen */
   object-fit: cover;
 }
 
-.card h2 {
+.cardcanciones h2 {
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -30,4 +29,6 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5px;
   border-radius: 5px;
+  margin: 0; /* Elimina el margen para evitar el desbordamiento */
+  font-size: 26px; /* Ajusta el tamaño de la fuente según sea necesario */
 }

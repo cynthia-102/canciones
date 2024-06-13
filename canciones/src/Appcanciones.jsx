@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import Card from './components/Card';
+import './Appcanciones.css';
+import Card from './components/Cardcanciones';
 import fondo from './assets/fondo.png';
 import icono1 from './assets/icono.png';
 import icono2 from './assets/icono2.png';
@@ -24,7 +24,7 @@ const App = () => {
   };
 
   return (
-    <div className="app" style={{ backgroundImage: `url(${fondo})` }}>
+    <div className="appcanciones" style={{ backgroundImage: `url(${fondo})` }}>
       <h1>CANCIONES</h1>
       <button className="top-button" onClick={handleButtonClick}>INICIO</button>
       <div className="card-container">

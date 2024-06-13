@@ -1,10 +1,12 @@
-/* Estilos para el diseño general de la aplicación */
-.app {
+/* Estilos para la aplicación de canciones */
+.appcanciones {
   position: relative;
   text-align: center;
-  padding: 30px;
+  padding: 50px;
   box-sizing: border-box;
-  background-size: cover;
+  background-image: url('../assets/fondo.png'); /* Ruta relativa ajustada */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen de fondo */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,15 +28,4 @@
   gap: 40px; /* Espacio entre las tarjetas */
   justify-items: center; /* Centrar las tarjetas horizontalmente */
   margin-top: 20px;
-}
-
-.card {
-  width: 250px; /* Ajusta el ancho de las tarjetas */
-  height: 180px; /* Ajusta la altura de las tarjetas */
-  background-color: #f0f0f0; /* Color de fondo para visualización */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ccc;
-  border-radius: 8px;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player/youtube';
-import './Card.css';
+import './Cardcanciones.css';
 
 const Card = ({ title, image, videoUrl }) => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -10,7 +10,7 @@ const Card = ({ title, image, videoUrl }) => {
   };
 
   return (
-    <div className="card" onClick={handleCardClick}>
+    <div className="cardcanciones" onClick={handleCardClick}>
       {isPlaying ? (
         <ReactPlayer url={videoUrl} controls={true} playing={true} width="100%" height="100%" />
       ) : (
