@@ -1,0 +1,40 @@
+/* Estilos para el diseño general de la aplicación */
+.app {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  gap: 40px; /* Espacio entre las tarjetas */
+  justify-items: center; /* Centrar las tarjetas horizontalmente */
+  margin-top: 20px;
+}
+
+.card {
+  width: 250px; /* Ajusta el ancho de las tarjetas */
+  height: 180px; /* Ajusta la altura de las tarjetas */
+  background-color: #f0f0f0; /* Color de fondo para visualización */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

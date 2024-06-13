@@ -1,0 +1,33 @@
+/* Estilos para las tarjetas */
+.card {
+  position: relative;
+  width: 280px; /* Reducción en el ancho */
+  height: 230px; /* Reducción en la altura */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Agregar espacio entre las tarjetas */
+  background-color: #f0f0f0; /* Fondo */
+}
+
+.card img {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+}
+
+.card h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
